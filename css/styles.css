@@ -95,6 +95,28 @@ body {
     border: 0.1rem solid #fff;
 }
 
-/*@media  and (max-width:450px) {
+@media screen and (max-width:575px) {
+    .card{
+        
+        flex-direction: column !important;
+        height: auto;
+        margin: 10px 0;
+        
+    }
+
+    .card > section{
+        border-radius: 0 !important;
+        height: 400px !important;
+        
+    }
+    .card .sedan{
+        border-top-right-radius: 0.8rem !important;
+        border-top-left-radius: 0.8rem !important;
+    }
+
+    .card .luxury{
+        border-bottom-right-radius: 0.8rem !important;
+        border-bottom-left-radius: 0.8rem !important;   
+    }
     
-}*/
+}
